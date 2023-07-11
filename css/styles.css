@@ -42,6 +42,20 @@ a {
 .nav:focus {
   color: var(--main-blue-color);
 }
+.nav-line{
+  display: inline-flex;
+  align-items: center;
+}
+.nav-line .nav{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+}
+.nav-line .nav: last-child{
+margin-right: 0px;
+}
+
 .button-head {
   background-color: var(--main-blue-color);
   color: var(--main-white-color);
@@ -55,13 +69,23 @@ button {
   background-color: var(--main-blue-color);
   color: var(--main-white-color);
 }
+.contact-nav{
+  display: flex;
+}
+.contact-nav .item{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contact-nav .item+.item{
+ margin-left: 40px;
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-text-color);
 }
-
 .contacts-footer {
   font-size: 14px;
   line-height: 1.71;
@@ -80,7 +104,9 @@ footer {
 .actual-page {
   color: var(--main-blue-color);
 }
+
 /* index */
+
 .headcolor {
   background-color: #2f303a;
 }
@@ -118,7 +144,9 @@ h2 {
   color: var(--main-text-color);
   font-size: 16px;
 }
+
 /* portfolio */
+
 .projects {
   font-weight: 700;
   font-size: 18px;
