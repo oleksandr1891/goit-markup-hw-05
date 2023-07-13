@@ -3,53 +3,146 @@
   --secondary-text-color: #212121;
   --main-blue-color: #2196f3;
   --main-white-color: #ffffff;
-  --background-dark-color: #2F303A;
-  --background-light-color: #F5F4FA;
+  --background-dark-color: #2f303a;
+  --background-light-color: #f5f4fa;
   --logo-black-color: #000000;
 }
 
 /* all pages */
-body{
+body {
   font-family: Roboto;
   color: var(--main-text-color);
+  letter-spacing: 0.42px;
 }
-ul{
+ul {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
-button{
+button {
   cursor: pointer;
 }
 
 /* nav */
-.logo{
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-letter-spacing: 0.78px;
-color: var(--main-blue-color);
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  color: var(--main-blue-color);
 }
-.logo-color{
+.logo-color {
   color: var(--logo-black-color);
 }
-.nav-link a{
-font-weight: 500;
-letter-spacing: 0.28px;
-color: var(--secondary-text-color);
+.nav-link a {
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  color: var(--secondary-text-color);
 }
-.nav-link .link:hover,
-.nav-link .link:focus {
-color: var(--main-blue-color);
+.nav-link .link a:hover,
+.nav-link .link a:focus {
+  color: var(--main-blue-color);
 }
-.nav-contacts a{
+.nav-contacts a {
   color: var(--main-text-color);
-font-size: 14px;
-font-weight: 500;
-letter-spacing: 0.28px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
 }
-.nav-contacts .contacts:focus, 
+.nav-contacts .contacts:focus,
 .nav-contacts .contacts:hover {
   color: var(--main-blue-color);
 }
+.actual-page{
+color: var(--main-blue-color);
+}
+
+/* footer */
+
+.footer-bcg {
+  background-color: var(--background-dark-color);
+}
+.footer-logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.footer-logo-color {
+  color: var(--main-white-color);
+}
+.adres {
+  color: var(--main-white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+}
+.footer-contacts {
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1, 71;
+}
+
+/* index */
+
+/* Шапка  */
+.head-bcg {
+  background-color: var(--background-dark-color);
+}
+.head-text {
+  color: var(--main-white-color);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1, 36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+.head-button {
+  border: none;
+  background-color: var(--main-blue-color);
+  color: var(--main-white-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1, 87;
+  letter-spacing: 0.96px;
+}
+
+/* Особливості */
+
+.feautures .item {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.feautures p {
+  font-size: 14px;
+  line-height: 1, 71;
+}
+
+/* Чим ми займаємося + Наша команда */
+
+.title {
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.team .item {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+.team p {
+  font-size: 16px;
+  letter-spacing: 0.48px;
+}
+
+/* Portfolio  */
+
