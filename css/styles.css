@@ -40,8 +40,8 @@ button {
   letter-spacing: 0.28px;
   color: var(--secondary-text-color);
 }
-.nav-link .link a:hover,
-.nav-link .link a:focus {
+.nav-link .link:hover,
+.nav-link .link:focus {
   color: var(--main-blue-color);
 }
 .nav-contacts a {
@@ -81,6 +81,7 @@ color: var(--main-blue-color);
 }
 .footer-contacts {
   color: var(--main-text-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1, 71;
 }
