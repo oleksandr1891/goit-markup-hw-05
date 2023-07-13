@@ -39,8 +39,8 @@ font-weight: 500;
 letter-spacing: 0.28px;
 color: var(--secondary-text-color);
 }
-.nav-link: hover
-.nav-link: focus {
+.nav-link:hover
+.nav-link:focus {
 color: var(--main-blue-color);
 }
 .nav-contacts{
@@ -49,7 +49,7 @@ font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
 }
-.nav-contacts: focus 
-.nav-contacts: hover {
+.nav-contacts:focus 
+.nav-contacts:hover {
   color: var(--main-blue-color);
 }
