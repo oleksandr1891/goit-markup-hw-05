@@ -54,7 +54,7 @@ button {
 .nav-contacts .contacts:hover {
   color: var(--main-blue-color);
 }
-.actual-page{
+.nav-link .actual-page{
 color: var(--main-blue-color);
 }
 
