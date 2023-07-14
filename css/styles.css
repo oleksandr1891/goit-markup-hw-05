@@ -9,7 +9,11 @@
 }
 
 /* all pages */
-
+.container{
+  width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
 body {
   font-family: Roboto;
   color: var(--main-text-color);
@@ -26,7 +30,10 @@ button {
 }
 
 /* nav */
-
+.nav{
+  display:inline-flex;
+  align-items: center;
+}
 .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -37,14 +44,28 @@ button {
 .logo-color {
   color: var(--logo-black-color);
 }
+.nav-link{
+display: inline-flex;
+margin-left: 93px;
+}
 .nav-link .link {
   font-weight: 500;
   letter-spacing: 0.28px;
   color: var(--secondary-text-color);
 }
+.nav-item{
+  margin-left: 50px;
+}
+.nav-item:first-child {
+  margin-left: 0px;
+}
 .nav-link .link:hover,
 .nav-link .link:focus {
   color: var(--main-blue-color);
+}
+.nav-contacts{
+  display: inline-flex;
+  margin-left: auto;
 }
 .nav-contacts .contacts {
   color: var(--main-text-color);
@@ -79,13 +100,13 @@ button {
   color: var(--main-white-color);
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
 }
 .footer-contacts {
   color: var(--main-text-color);
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
 }
 
 /* index */
@@ -99,7 +120,7 @@ button {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 1, 36;
+  line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
@@ -110,7 +131,7 @@ button {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.96px;
 }
 
@@ -124,11 +145,13 @@ button {
 }
 .feautures p {
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
 }
 
 /* Чим ми займаємося + Наша команда */
-
+.bcg-team{
+  background-color: var(--background-light-color);
+}
 .title {
   color: var(--secondary-text-color);
   text-align: center;
@@ -148,3 +171,36 @@ button {
 }
 
 /* Portfolio  */
+
+/* Фільтри */
+.filtres .item{
+background-color: var(--background-light-color);
+border: none;
+color:var(--secondary-text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62;
+letter-spacing: 0.48px;
+}
+.filtres .item:hover,
+.filtres .item:focus{
+  background-color: var(--main-blue-color);
+  color: var(--main-white-color);
+}
+
+/* Проєкти */
+
+.projects .item{
+color: var(--secondary-text-color);
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 1.08px;
+}
+.projects p{
+color: var(--main-text-color);
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.48px;
+}
