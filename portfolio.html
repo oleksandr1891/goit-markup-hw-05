@@ -14,18 +14,19 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <div class="container">
     <header>
       <!-- Навігація -->
+      <div class="container">
       <nav class="nav">
         <a class="logo" href="index.html"
           >Web<span class="logo-color">Studio</span></a
         >
         <ul class="nav-link">
-          <li class="nav-item"><a class="link" href="index.html">Студія</a></li>
-          <li class="nav-item"><a class="link actual-page" href="./portfolio.html">Портфоліо</a></li>
+          <li class="nav-item"><a class="link actual-page" href="index.html">Студія</a></li>
+          <li class="nav-item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
           <li class="nav-item"><a class="link" href="">Контакти</a></li>
         </ul>
+            </nav>
         <ul class="nav-contacts">
           <li class="nav-item">
             <a class="contacts" href="mailto:info@devstudio.com"
@@ -36,28 +37,28 @@
             <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main>
       <!-- Фільтри + Проєкти -->
-      <section>
-        <ul class="filtres">
-          <li><button class="item" type="button">Усі</button></li>
-          <li><button class="item" type="button">Веб-сайти</button></li>
-          <li><button class="item" type="button">Додатки</button></li>
-          <li><button class="item" type="button">Дизайн</button></li>
-          <li><button class="item" type="button">Маркетинг</button></li>
+      <section> <div class="container">
+        <ul class="filtres center">
+          <li class="list"><button class="item" type="button">Усі</button></li>
+          <li class="list"><button class="item" type="button">Веб-сайти</button></li>
+          <li class="list"><button class="item" type="button">Додатки</button></li>
+          <li class="list"><button class="item" type="button">Дизайн</button></li>
+          <li class="list"><button class="item" type="button">Маркетинг</button></li>
         </ul>
 
         <ul class="projects">
-          <li>
+          <li class="list">
             <a href=""
               ><img src="./images/techkr.jpg" alt="Технокряк" width="370" />
               <h3 class="item">Технокряк</h3>
               <p>Веб-сайт</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href="">
               <img
                 src="./images/poster.jpg"
@@ -68,7 +69,7 @@
               <p>Дизайн</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href="">
               <img
                 src="./images/seafood.jpg"
@@ -79,21 +80,21 @@
               <p>Додаток</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href="">
               <img src="./images/prime.jpg" alt="Проєкт Prime" width="370" />
               <h3 class="item">Проєкт Prime</h3>
               <p>Маркетинг</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href=""
               ><img src="./images/boxes.jpg" alt="Проєкт Boxes" width="370" />
               <h3 class="item">Проєкт Boxes</h3>
               <p>Додаток</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href="">
               <img
                 src="./images/inspiration.jpg"
@@ -104,7 +105,7 @@
               <p>Веб-сайт</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href="">
               <img
                 src="./images/limedition.jpg"
@@ -115,14 +116,14 @@
               <p>Дизайн</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href="">
               <img src="./images/lab.jpg" alt="Проєкт LAB" width="370" />
               <h3 class="item">Проєкт LAB</h3>
               <p>Маркетинг</p></a
             >
           </li>
-          <li>
+          <li class="list">
             <a href="">
               <img
                 src="./images/growing.jpg"
@@ -134,9 +135,11 @@
             >
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-bcg">
+          <div class="container">
       <a class="footer-logo" href="index.html"
         >Web<span class="footer-logo-color">Studio</span></a
       >
@@ -155,7 +158,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
-    </div>
   </body>
 </html>

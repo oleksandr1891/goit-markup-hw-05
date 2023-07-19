@@ -121,7 +121,7 @@ padding-bottom: 32px;
   line-height: 1.71;
 }
 .footer-contacts {
-  color: var(--main-text-color);
+  color: rgba(255, 255, 255, 0.60);;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -244,9 +244,22 @@ margin-right: 30px;
 /* Portfolio  */
 
 /* Фільтри */
+.filtres{
+  display: inline-flex;
+  padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
 .filtres .item{
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
 background-color: var(--background-light-color);
 border: none;
+border-radius: 4px;
 color:var(--secondary-text-color);
 text-align: center;
 font-size: 16px;
@@ -259,10 +272,40 @@ letter-spacing: 0.48px;
   background-color: var(--main-blue-color);
   color: var(--main-white-color);
 }
+.filtres .list{
+  margin-right: 30px;
+}
+.filtres .list: last-child{
+  margin-right: 0px;
+}
 
 /* Проєкти */
 
+.projects{
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.projects .list{
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #EEE ;
+}
+.projects .list:nth-child(3n + 3){
+margin-right: 0px;
+}
+.projects .list:nth-child(-n + 3){
+
+}
 .projects .item{
+  margin: 0px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+
 color: var(--secondary-text-color);
 font-size: 18px;
 font-weight: 700;
@@ -270,6 +313,11 @@ line-height: 2;
 letter-spacing: 1.08px;
 }
 .projects p{
+  margin: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+
 color: var(--main-text-color);
 font-size: 16px;
 line-height: 1.87;
