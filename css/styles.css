@@ -9,16 +9,16 @@
 }
 
 /* all pages */
-.container{
-width: 1200px;
-margin-left: auto;
-margin-right: auto;
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   font-family: Roboto;
   color: var(--main-text-color);
 }
-section{
+section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -33,13 +33,13 @@ button {
 }
 
 /* nav */
-header{
+header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: #ECECEC;
+  border-bottom-color: #ececec;
 }
-.nav{
-  display:inline-flex;
+.nav {
+  display: inline-flex;
   align-items: baseline;
 }
 .logo {
@@ -52,21 +52,21 @@ header{
 .logo-color {
   color: var(--logo-black-color);
 }
-.nav-link{
-display: inline-flex;
-padding-left: 0px;
-margin-left: 93px;
+.nav-link {
+  display: inline-flex;
+  padding-left: 0px;
+  margin-left: 93px;
 }
 .nav-link .link {
-padding-top: 32px;
-padding-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-color: var(--secondary-text-color);
-font-size: 14px;
-font-weight: 500;
-letter-spacing: 0.28px;
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
 }
-.nav-item{
+.nav-item {
   margin-left: 50px;
 }
 .nav-item:first-child {
@@ -76,15 +76,15 @@ letter-spacing: 0.28px;
 .nav-link .link:focus {
   color: var(--main-blue-color);
 }
-.nav-contacts{
+.nav-contacts {
   display: inline-flex;
   align-items: baseline;
   padding-left: 0px;
   margin-left: 354px;
 }
 .nav-contacts .contacts {
-padding-top: 32px;
-padding-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--main-text-color);
   font-size: 14px;
@@ -119,27 +119,27 @@ padding-bottom: 32px;
   color: var(--main-white-color);
 }
 .adres {
-   display: flex;
-   margin: 0px;
-   padding-bottom: 12px;
+  display: flex;
+  margin: 0px;
+  padding-bottom: 12px;
 
   color: var(--main-white-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
-.footer-list{
+.footer-list {
   padding: 0px;
   margin: 0px;
 }
-.footer-list .item{
+.footer-list .item {
   margin-bottom: 12px;
 }
-.footer-list .item:last-child{
+.footer-list .item:last-child {
   padding-bottom: 60px;
 }
 .footer-contacts {
-  color: rgba(255, 255, 255, 0.60);;
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -153,10 +153,10 @@ padding-bottom: 32px;
   text-align: center;
 }
 .head-text {
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-  
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: var(--main-white-color);
   text-align: center;
   font-size: 44px;
@@ -171,9 +171,9 @@ padding-bottom: 32px;
   padding-bottom: 10px;
   border-radius: 4px;
   border: none;
-margin-top: 30px;
-margin-left: auto;
-margin-right: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
   background-color: var(--main-blue-color);
   color: var(--main-white-color);
@@ -185,15 +185,15 @@ margin-right: auto;
 }
 
 /* Особливості */
-.feautures{
+.feautures {
   display: inline-flex;
   padding-left: 0px;
 }
-.feautures .list{
+.feautures .list {
   width: 270px;
   margin-right: 30px;
 }
-.feautures .list:last-child{
+.feautures .list:last-child {
   margin-right: 0px;
 }
 .feautures .item {
@@ -208,18 +208,18 @@ margin-right: auto;
 }
 
 /* Чим ми займаємося + Наша команда */
-.img{
+.img {
   display: inline-flex;
   margin: 0px;
   padding-left: 0px;
 }
-.img .item{
+.img .item {
   margin-right: 30px;
 }
-.img .item:last-child{
+.img .item:last-child {
   margin-right: 0px;
 }
-.bcg-team{
+.bcg-team {
   background-color: var(--background-light-color);
 }
 .title {
@@ -231,16 +231,17 @@ margin-right: auto;
   margin-bottom: 50px;
   margin-top: 0px;
 }
-.team{
+.team {
   display: inline-flex;
   margin: 0px;
   padding-left: 0px;
 }
-.team .list{
-margin-right: 30px;
+.team .list {
+  margin-right: 30px;
   background-color: var(--main-white-color);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team .item {
   margin-top: 30px;
@@ -263,7 +264,7 @@ margin-right: 30px;
 /* Portfolio  */
 
 /* Фільтри */
-.filtres{
+.filtres {
   display: flex;
   padding-left: 0px;
   margin-left: auto;
@@ -271,75 +272,74 @@ margin-right: 30px;
   margin-bottom: 50px;
   justify-content: center;
 }
-.filtres .item{
+.filtres .item {
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
 
-background-color: var(--background-light-color);
-border: none;
-border-radius: 4px;
-color:var(--secondary-text-color);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.62;
-letter-spacing: 0.48px;
+  background-color: var(--background-light-color);
+  border: none;
+  border-radius: 4px;
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
 }
 .filtres .item:hover,
-.filtres .item:focus{
+.filtres .item:focus {
   background-color: var(--main-blue-color);
   color: var(--main-white-color);
 }
-.filtres .list{
+.filtres .list {
   margin-right: 30px;
 }
-.filtres .list: last-child{
+.filtres.list: last-child {
   margin-right: 0px;
 }
 
 /* Проєкти */
 
-.projects{
+.projects {
   display: inline-flex;
   flex-wrap: wrap;
   padding-left: 0px;
 }
-.projects .list{
+.projects .list {
   margin-right: 30px;
   margin-bottom: 30px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: #EEE ;
+  border-bottom-color: #eee;
 }
-.projects .list:nth-child(3n + 3){
-margin-right: 0px;
+.projects .list:nth-child(3n + 3) {
+  margin-right: 0px;
 }
-.projects .list:nth-child(-n + 3){
-
+.projects .list:nth-child(-n + 3) {
 }
-.projects .item{
+.projects .item {
   margin: 0px;
   padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 4px;
 
-color: var(--secondary-text-color);
-font-size: 18px;
-font-weight: 700;
-line-height: 2;
-letter-spacing: 1.08px;
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
 }
-.projects p{
+.projects p {
   margin: 0px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
 
-color: var(--main-text-color);
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.48px;
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.48px;
 }
