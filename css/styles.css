@@ -105,6 +105,10 @@ padding-bottom: 32px;
   background-color: var(--background-dark-color);
 }
 .footer-logo {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 28px;
+
   color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
@@ -115,10 +119,24 @@ padding-bottom: 32px;
   color: var(--main-white-color);
 }
 .adres {
+   display: flex;
+   margin: 0px;
+   padding-bottom: 12px;
+
   color: var(--main-white-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+.footer-list{
+  padding: 0px;
+  margin: 0px;
+}
+.footer-list .item{
+  margin-bottom: 12px;
+}
+.footer-list .item:last-child{
+  padding-bottom: 60px;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.60);;
@@ -132,6 +150,7 @@ padding-bottom: 32px;
 /* Шапка  */
 .head-bcg {
   background-color: var(--background-dark-color);
+  text-align: center;
 }
 .head-text {
     width: 696px;
@@ -245,11 +264,12 @@ margin-right: 30px;
 
 /* Фільтри */
 .filtres{
-  display: inline-flex;
+  display: flex;
   padding-left: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  justify-content: center;
 }
 .filtres .item{
   padding-left: 22px;
