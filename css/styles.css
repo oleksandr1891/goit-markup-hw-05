@@ -13,6 +13,8 @@
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 body {
   font-family: Roboto;
@@ -34,12 +36,10 @@ button {
 
 /* nav */
 header {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .nav {
-  display: inline-flex;
+  display: flex;
   align-items: baseline;
 }
 .logo {
@@ -54,12 +54,14 @@ header {
 }
 .nav-link {
   display: inline-flex;
+  margin: 0px;
   padding-left: 0px;
   margin-left: 93px;
 }
 .nav-link .link {
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 
   color: var(--secondary-text-color);
   font-size: 14px;
@@ -76,11 +78,15 @@ header {
 .nav-link .link:focus {
   color: var(--main-blue-color);
 }
+header .container{
+  display: flex;
+  align-items: center;
+}
 .nav-contacts {
-  display: inline-flex;
-  align-items: baseline;
+  margin: 0px;
+  display: flex;
   padding-left: 0px;
-  margin-left: 354px;
+  margin-left: auto;
 }
 .nav-contacts .contacts {
   padding-top: 32px;
@@ -156,6 +162,8 @@ header {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 0px;
 
   color: var(--main-white-color);
   text-align: center;
@@ -172,6 +180,7 @@ header {
   border-radius: 4px;
   border: none;
   margin-top: 30px;
+  margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -185,9 +194,13 @@ header {
 }
 
 /* Особливості */
+.btm-pad{
+  padding-bottom: 0px;
+}
 .feautures {
   display: inline-flex;
   padding-left: 0px;
+  margin: 0px;
 }
 .feautures .list {
   width: 270px;
@@ -267,6 +280,7 @@ header {
 .filtres {
   display: flex;
   padding-left: 0px;
+  margin: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -305,6 +319,7 @@ header {
 .projects {
   display: inline-flex;
   flex-wrap: wrap;
+  margin: 0px;
   padding-left: 0px;
 }
 .projects .list {
