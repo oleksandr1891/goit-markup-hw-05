@@ -37,7 +37,7 @@ a {
 button {
   cursor: pointer;
 }
-img{
+img {
   display: block;
 }
 /* nav */
@@ -84,7 +84,7 @@ header {
 .nav-link .link:focus {
   color: var(--main-blue-color);
 }
-header .container{
+header .container {
   display: flex;
   align-items: center;
 }
@@ -121,7 +121,7 @@ header .container{
 }
 .footer-logo {
   display: block;
-margin-bottom: 20px;
+  margin-bottom: 20px;
 
   color: #2196f3;
   font-family: Raleway;
@@ -140,7 +140,7 @@ margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.71;
 }
-.list{
+.list {
   display: block;
 }
 .footer-contacts {
@@ -149,7 +149,7 @@ margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.71;
 }
-.list li:first-child{
+.list li:first-child {
   margin-bottom: 12px;
 }
 /* index */
@@ -199,7 +199,7 @@ margin-bottom: 20px;
   display: flex;
   gap: 30px;
 }
-.feautures .item{
+.feautures .item {
   margin-bottom: 10px;
 }
 .feautures .list {
@@ -217,11 +217,11 @@ margin-bottom: 20px;
 }
 
 /* Чим ми займаємося + Наша команда */
-.pad-top{
+.pad-top {
   padding-top: 0px;
 }
 .img {
-display: flex;
+  display: flex;
   gap: 30px;
 }
 .bcg-team {
@@ -252,7 +252,7 @@ display: flex;
   letter-spacing: 0.48px;
   text-align: center;
 }
-.team .block{
+.team .block {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -302,7 +302,7 @@ display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.projects .title{
+.projects .title {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
@@ -323,7 +323,7 @@ display: flex;
   letter-spacing: 1.08px;
 }
 .projects p {
- margin-top: 4px;
+  margin-top: 4px;
 
   color: var(--main-text-color);
   font-size: 16px;
