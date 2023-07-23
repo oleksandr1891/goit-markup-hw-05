@@ -271,7 +271,7 @@ header .container {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
 }
 .filtres .item {
   padding-left: 22px;
@@ -302,6 +302,11 @@ header .container {
   flex-wrap: wrap;
   gap: 30px;
 }
+.title{
+  border-bottom: 1px solid #EEE;
+  border-left:  1px solid #EEE;
+  border-right:  1px solid #EEE;
+}
 .projects .title {
   padding-left: 24px;
   padding-right: 24px;
@@ -310,11 +315,6 @@ header .container {
   margin-bottom: 0px;
   text-align: start;
 }
-.projects .list {
-  margin-bottom: 30px;
-  border-bottom: 1px solid #eee;
-}
-
 .projects .item {
   color: var(--secondary-text-color);
   font-size: 18px;
