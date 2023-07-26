@@ -103,6 +103,9 @@ header .container {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
+.nav-contacts .icon-contacts{
+  fill: red;
+}
 .nav-contacts .contacts:focus,
 .nav-contacts .contacts:hover {
   color: var(--main-blue-color);
