@@ -106,6 +106,7 @@ header .container {
 .nav-contacts .contacts:focus,
 .nav-contacts .contacts:hover {
   color: var(--main-blue-color);
+  fill: var(--main-blue-color);
 }
 .nav-link .actual-page {
   color: var(--main-blue-color);
@@ -223,6 +224,15 @@ header .container {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.feautures .icon{
+border-radius: 4px;
+background: var(--background-light-color);
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 25px;
+padding-bottom: 25px;
+margin-bottom: 30px;
 }
 .feautures p {
   font-size: 14px;
