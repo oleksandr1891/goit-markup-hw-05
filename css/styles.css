@@ -307,6 +307,29 @@ header .container {
   fill: var(--main-white-color);
 }
 
+/* Постійні клієнти */
+.clients{
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+.clients-logo{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 92px;
+fill: #AFB1B8;
+
+border-radius: 4px;
+border: 1px solid #AFB1B8;
+}
+.clients-logo:focus
+.clients-logo:hover{
+border-color:var(--main-blue-color);
+fill: var(--main-blue-color);
+}
+
 /* Portfolio  */
 
 /* Фільтри */
