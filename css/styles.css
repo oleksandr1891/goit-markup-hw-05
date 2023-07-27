@@ -103,21 +103,16 @@ header .container {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-.nav-contacts .contacts:focus,
-.nav-contacts .contacts:hover {
-  color: var(--main-blue-color);
-}
 .nav-link .actual-page {
   color: var(--main-blue-color);
 }
 .nav-contacts .icon-contacts {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: var(--main-text-color);
 }
-.contacts .icon-contacts:hover,
-.contacts .icon-contacts:focus {
+.nav-contacts .contacts:focus,
+.nav-contacts .contacts:hover {
+  color: var(--main-blue-color);
   fill: var(--main-blue-color);
 }
 /* footer */
@@ -305,7 +300,11 @@ header .container {
   height: 44px;
   border-radius: 50%;
   fill: var(--main-text-color);
+}
+.team-icon:hover,
+.team-icon:focus{
   background-color: #2196f3;
+  fill: var(--main-white-color);
 }
 
 /* Portfolio  */
@@ -348,17 +347,17 @@ header .container {
   flex-wrap: wrap;
   gap: 30px;
 }
-.project .list {
-  display: block;
+.project-list:hover,
+.project-list:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.title {
+.bottom-section {
   border-bottom: 1px solid #eee;
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
 }
-.projects .title {
+.projects .bottom-section{
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
