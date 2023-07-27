@@ -156,6 +156,39 @@ header .container {
 .list li:first-child {
   margin-bottom: 12px;
 }
+.footer-title{
+color: var(--main-white-color);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.footer-section{
+  display: flex;
+}
+.footer-icon-container{
+  margin-left: 70px;
+}
+.footer-social-media {
+  display: flex;
+  gap: 10px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--main-white-color);
+  background-color:  rgba(255, 255, 255, 0.10);;
+}
+.footer-icon:hover,
+.footer-icon:focus{
+  background-color: #2196f3;
+  fill: var(--main-white-color);
+}
 /* index */
 
 /* Шапка  */
