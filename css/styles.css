@@ -106,16 +106,20 @@ header .container {
 .nav-contacts .contacts:focus,
 .nav-contacts .contacts:hover {
   color: var(--main-blue-color);
-  fill: var(--main-blue-color);
 }
 .nav-link .actual-page {
   color: var(--main-blue-color);
 }
-.nav-contacts .icon-contacts{
+.nav-contacts .icon-contacts {
+  width: 16px;
+  height: 12px;
   margin-right: 10px;
-  fill: var(--main-text-color) ;
+  fill: var(--main-text-color);
 }
-
+.contacts .icon-contacts:hover,
+.contacts .icon-contacts:focus {
+  fill: var(--main-blue-color);
+}
 /* footer */
 
 .footer-bcg {
@@ -162,15 +166,15 @@ header .container {
 /* Шапка  */
 .head-bcg {
   max-width: 1600px;
-  background-image: linear-gradient( 
-    to right,
-     rgba(47, 48, 58, 0.40),
-     rgba(47, 48, 58, 0.40)
-     ) , url(../images/bcg-head.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bcg-head.jpg);
   background-color: var(--background-dark-color);
   background-position: center;
 
-  
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -225,14 +229,14 @@ header .container {
   font-weight: 700;
   text-transform: uppercase;
 }
-.feautures .icon{
-border-radius: 4px;
-background: var(--background-light-color);
-padding-left: 100px;
-padding-right: 100px;
-padding-top: 25px;
-padding-bottom: 25px;
-margin-bottom: 30px;
+.feautures .icon {
+  border-radius: 4px;
+  background: var(--background-light-color);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
 }
 .feautures p {
   font-size: 14px;
@@ -279,14 +283,29 @@ margin-bottom: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.team .social-media{
-}
 .team p {
   margin-top: 10px;
 
   font-size: 16px;
   letter-spacing: 0.48px;
   text-align: center;
+}
+.team-social-media {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  gap: 10px;
+}
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--main-text-color);
+  background-color: #2196f3;
 }
 
 /* Portfolio  */
@@ -318,7 +337,8 @@ margin-bottom: 30px;
 .filtres .item:focus {
   background-color: var(--main-blue-color);
   color: var(--main-white-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* Проєкти */
@@ -328,14 +348,15 @@ margin-bottom: 30px;
   flex-wrap: wrap;
   gap: 30px;
 }
-.project .list{
+.project .list {
   display: block;
-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.title{
-  border-bottom: 1px solid #EEE;
-  border-left:  1px solid #EEE;
-  border-right:  1px solid #EEE;
+.title {
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
 }
 .projects .title {
   padding-left: 24px;
@@ -355,9 +376,9 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
 .projects p {
   margin-top: 4px;
 
-color: var(--main-text-color);
-font-size: 16px;
-line-height: 1,87;
-letter-spacing: 0.48px;
-font-weight: 400;
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.48px;
+  font-weight: 400;
 }
