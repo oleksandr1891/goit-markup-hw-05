@@ -162,8 +162,9 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 margin-bottom: 20px;
 }
-.footer-section{
+.footer-container{
   display: flex;
+  align-items: center;
 }
 .footer-icon-container{
   margin-left: 70px;
