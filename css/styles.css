@@ -108,13 +108,11 @@ header .container {
 }
 .nav-contacts .icon-contacts {
   margin-right: 10px;
-  fill: var(--main-text-color);
+  fill: currentColor;
 }
 .nav-contacts .contacts:focus,
 .nav-contacts .contacts:hover {
-  color: var(--main-blue-color);
-  fill: var(--main-blue-color);
-}
+  color: var(--main-blue-color);}
 /* footer */
 
 .footer-bcg {
