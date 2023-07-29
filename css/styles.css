@@ -151,7 +151,7 @@ header .container {
   font-size: 14px;
   line-height: 1.71;
 }
-.list li:first-child {
+.footer-adres .list {
   margin-bottom: 12px;
 }
 .footer-title{
@@ -164,10 +164,8 @@ margin-bottom: 20px;
 }
 .footer-container{
   display: flex;
-  align-items: center;
-}
-.footer-icon-container{
-  margin-left: 70px;
+  align-items: baseline;
+  gap: 70px;
 }
 .footer-social-media {
   display: flex;
@@ -259,14 +257,15 @@ margin-bottom: 20px;
   font-weight: 700;
   text-transform: uppercase;
 }
-.feautures .icon {
-  border-radius: 4px;
-  background: var(--background-light-color);
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 30px;
+.icon-feautures{
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 270px;
+height: 120px;
+border-radius: 4px;
+background-color: var(--background-light-color);
+margin-bottom: 30px;
 }
 .feautures p {
   font-size: 14px;
@@ -315,6 +314,7 @@ margin-bottom: 20px;
 }
 .team p {
   margin-top: 10px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   letter-spacing: 0.48px;
@@ -322,9 +322,7 @@ margin-bottom: 20px;
 }
 .team-social-media {
   display: flex;
-  margin-top: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
+justify-content: center;
   gap: 10px;
 }
 .team-icon {
@@ -334,7 +332,7 @@ margin-bottom: 20px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--main-text-color);
+  fill: #AFB1B8;
 }
 .team-icon:hover,
 .team-icon:focus{
@@ -344,7 +342,6 @@ margin-bottom: 20px;
 
 /* Постійні клієнти */
 .clients{
-  margin-top: 50px;
   display: flex;
   gap: 30px;
 }
@@ -405,8 +402,8 @@ fill: var(--main-blue-color);
   flex-wrap: wrap;
   gap: 30px;
 }
-.project-list:hover,
-.project-list:focus {
+.project-list a:hover,
+.project-list a:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
@@ -435,7 +432,7 @@ fill: var(--main-blue-color);
 
   color: var(--main-text-color);
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.48px;
   font-weight: 400;
 }
