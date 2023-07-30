@@ -169,7 +169,9 @@ header .container {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 70px;
+}
+.logo-adres{
+  margin-right: 70px;
 }
 .footer-social-media {
   display: flex;
