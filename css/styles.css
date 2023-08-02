@@ -200,8 +200,7 @@ header .container {
   border-radius: 50%;
   fill: var(--main-white-color);
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon:hover,
 .footer-icon:focus {
@@ -413,21 +412,24 @@ header .container {
   fill: var(--main-blue-color);
 }
 .backdrop{
+  opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
 background-color: rgba(0, 0, 0, 0.20);
+   transform: scale(1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.2);
 }
-
 .modal{
   position: absolute;
   top: 50%;
@@ -438,7 +440,6 @@ height: 581px;
 border-radius: 4px;
 background: var(--main-white-color);
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
 }
 .close-btn{
   position: absolute;
